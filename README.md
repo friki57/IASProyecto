@@ -5,7 +5,7 @@
   > git clone https://github.com/friki57/IASProyecto
 
 ###### Luego, abra su editor de codigo favorito y seleccione la carpeta clonada.
-###### entro del editor abra la terminal indroduzca los siguientes comandos:
+###### Dentro del editor abra la terminal indroduzca los siguientes comandos:
   > cd iashito3
   
   > npm install
