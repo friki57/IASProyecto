@@ -79,6 +79,7 @@ z-index: 12;
   
 /* Note: backdrop-filter has minimal browser support */
   border-radius: 13px;
+  border: none;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
@@ -116,6 +117,7 @@ flex-direction: column;
   height: 22px;
   margin-left: 12px;
   margin-right: 12px;
+  
 }
 .FormButton{
   text-align: center;
@@ -127,6 +129,7 @@ flex-direction: column;
   filter: drop-shadow(0px 10px 25px #80CBC4);
   background: #00796B;
   border-radius: 50px;
+  border: none;
   color: white;
   font-family: Montserrat;
   font-style: normal;
