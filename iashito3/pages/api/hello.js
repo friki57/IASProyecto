@@ -13,7 +13,7 @@ export default async(req, res) => {
   var img = req.body.img;
   // console.log(img)
   var rutaM = descargarImagen(img, base+"/public/originales/", ()=>{})
-  
+
   let progress = (current, total) => {
     console.log(`Current Image: ${current} Total Images: ${total}`)
     if (current === 5) return true

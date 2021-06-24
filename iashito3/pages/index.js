@@ -15,7 +15,7 @@ export default class Home extends React.Component {
     this.state = {
       lon: "-66.18",
       lat: "-17.38",
-      dim: "0.15",
+      dim: "0.5",
       fecha: fechaActual,
       enlaceNasa: "https://api.nasa.gov/planetary/earth/imagery?lon=-66.18&lat=-17.38&date=2015-09-12&dim=0.15&api_key=nDBbhVtkbXC25ZCvI8kpPnXFrhHd8fQBTrdLWSsP",
       enlaceNasaM: "/iconoFoto.png"
@@ -92,6 +92,9 @@ export default class Home extends React.Component {
           <a target="blank" href={this.state.enlaceNasaM}>Ver en más detalle</a>
 
         </div>
+
+        <br/>
+        <a target="blank" href="/galeria">Ver galería de mejoras</a>
       </>
     )
   }
